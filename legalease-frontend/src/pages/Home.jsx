@@ -25,7 +25,7 @@ function Home() {
       const data = await askLegalQuestion(question);
       setResult(data);
     } catch (err) {
-      setError("Something went wrong while fetching the answer.");
+      setError(err.message || "Something went wrong while fetching the answer.");
       console.error(err);
     } finally {
       setLoading(false);
