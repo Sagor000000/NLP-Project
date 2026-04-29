@@ -29,7 +29,7 @@ The frontend delivers a seamless user experience, communicating smoothly with th
 ### Prerequisites
 - **Python 3.8+** (for the backend environment)
 - **Node.js & npm/yarn** (for the frontend environment)
-- Necessary API Keys: Pinecone API Key, LLM Provider API Key (e.g., OpenAI, Google Gemini).
+- Necessary API Keys: Pinecone API Key, LLM Provider API Key (e.g., Grok, Google Gemini).
 
 ### Backend Setup
 1. Navigate to the backend directory:
