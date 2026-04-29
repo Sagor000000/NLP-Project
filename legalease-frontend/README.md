@@ -1,16 +1,28 @@
-# React + Vite
+# LegalEase BD - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the frontend web application for **LegalEase BD**, providing the interactive user interface for the cloud-based AI legal assistant. It is designed to deliver a seamless, conversational experience, connecting users directly to the powerful backend RAG pipeline.
 
-Currently, two official plugins are available:
+## 🌟 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Conversational Interface:** An intuitive, chat-like UI allowing users to easily query legal information.
+* **Real-Time API Integration:** Seamlessly communicates with the FastAPI backend to fetch AI-generated, contextually grounded legal responses.
+* **Responsive Design:** Optimized for various screen sizes to ensure accessibility across devices.
+* **Modern UI Components:** Clean and structured presentation of complex legal information.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Core:** JavaScript / HTML / CSS
+* **Framework (Suggested/Common):** React.js 
+* **Styling:** Tailwind CSS 
+* **Deployment:** Vercel (Live at: [https://nlp-project-ashy.vercel.app](https://nlp-project-ashy.vercel.app))
 
-## Expanding the ESLint configuration
+## 🚀 Local Development Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Prerequisites
+Ensure you have **Node.js** and a package manager (`npm` or `yarn`) installed on your system.
+
+### 2. Installation
+Navigate to the frontend directory from the root of the repository:
+
+```bash
+cd legalease-frontend
